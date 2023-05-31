@@ -1,0 +1,151 @@
+a:hover{
+	text-decoration: none;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+	color: #000;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.section h2.section-head:after{
+	background: #e74c3c;
+	content: "";
+	display: block;
+	width: 100px;
+	height: 3px;
+	margin: 20px auto;
+}
+
+#header{
+	color: #fff;
+	background: #e74c3c;
+}
+
+#logo{
+	font-size: 2rem;
+	margin-top: 5px;
+}
+#menu{
+	list-style: none;
+    margin: 0;
+	padding: 0;
+}
+#menu li{
+	display: inline-block;
+}
+#menu li a{
+	color: #fff;
+	padding: 15px 10px;
+	display: block;
+	text-decoration: none;
+}
+
+#menu li a:hover{
+	background: #c0392b;
+}
+#banner{
+    background: url('../image/banner.jpg') no-repeat 0 0 ;
+    background-size: cover;
+}
+.banner-title{
+    padding: 5rem;
+}
+.banner-title h1{
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-title p.lead{
+	color: #fff;
+	background: rgba(231, 76, 60, 0.7);
+	padding: 10px;
+}
+.service-box{
+    text-align: center;
+}
+.service-box i.fa{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+#testimonials{
+	color: #fff;
+	background: url(../image/nicolas-thomas-PLDkBHbM3Hc-unsplash.jpg) no-repeat 0 0;
+	background-size: cover;
+	padding: 50px 20px;
+	position: relative;
+}
+#testimonial:before{
+	background: rgba(52, 73, 94, 0.7);
+	content: "";
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+.testimonial img{
+	border-radius: 50%;
+	margin-bottom: 5px;
+}
+.news-post img{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 10px;
+}
+.news-post h3 a{
+	color: #c0392b;
+}
+.post-date:before{
+	content: "\f073";
+	font-family: FontAwesome;
+	padding-right: 5px;
+}
+a.readmore{
+	color: #e74c3c;
+	font-size: 14px;
+	text-decoration: none;
+}
+a.readmore:after{
+	content: "\f101";
+	font-family: FontAwesome;
+	padding-left: 5px;
+}
+#footer-sidebar{
+	color: #fff;
+	background: #34495e;
+	padding: 20px 0;
+}
+.footer-widget h4:after{
+	content: "";
+	background: #fff;
+	display: block;
+	width: 50px;
+	height: 2px;
+	margin: 5px 0;
+}
+#footer{
+	color: #fff;
+	background: #2c3e50;
+	padding: 10px 0;
+}
+#social-icons{
+	list-style: none;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#social-icons li{
+	display: inline-block;
+	padding-left: 5px;
+}
+#social-icons li a{
+	color: #fff;
+	font-size: 23px;
+	text-decoration: none;
+}
